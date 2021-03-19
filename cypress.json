@@ -1,0 +1,5 @@
+{
+  "testFiles": "**/*.feature",
+  "baseUrl": "https://www.linkedin.com/",
+  "defaultCommandTimeout": 40000
+}
