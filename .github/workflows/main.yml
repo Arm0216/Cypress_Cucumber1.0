@@ -2,8 +2,12 @@
 
 name: CI/CD
 on:
-  schedule:
-  - cron:  "*/5 * * * *"
+  schedules:
+    - cron: "0 0 * * *"
+      displayName: Daily midnight build
+      branches:
+        include:
+        - master
   workflow_dispatch:
 jobs:
   build:
