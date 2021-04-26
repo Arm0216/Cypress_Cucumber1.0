@@ -3,7 +3,7 @@
 name: CI/CD
 on:
   schedule:
-  - cron: '1 * * * *'
+  - cron: '* * * * *'
   workflow_dispatch:
 jobs:
   build:
