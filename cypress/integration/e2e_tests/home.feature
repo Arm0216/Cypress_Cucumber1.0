@@ -1,6 +1,6 @@
 Feature: homePage
   Background:
-    Given I login with correct username "arman.poghosyan.2002@mail.ru" & password "arman200216"
+    Given I login with correct username "arman.poghosyan.2002@mail.ru" & password "*****"
 
   Scenario: Open profile page from home page
     Given I click profile username
